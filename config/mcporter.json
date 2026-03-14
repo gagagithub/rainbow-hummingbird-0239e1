@@ -1,0 +1,30 @@
+{
+  "mcpServers": {
+    "xiaohongshu": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "xiaohongshu-mcp-steve"
+      ],
+      "env": {
+        "XIAOHONGSHU_COOKIE": "abRequestId=ff22992d-3e50-5dad-877a-078e6537c8d6; a1=19ca342d937c6wbhlifurfex5eajaqa9ui7h9yhbp30000379353; webId=502bf99485770e5b5db8adc7dfc13828; gid=yjS0q4JdYf7KyjS0q4Jfj3vxqWSKEDx13i7FWDUidC2d0xq8V0A0jj888qWjq2q8j2S2dY22; xsecappid=xhs-pc-web; webBuild=6.0.0; websectiga=984412fef754c018e472127b8effd174be8a5d51061c991aadd200c69a2801d6; sec_poison_id=5207b5b4-7412-42b2-8e67-69ea38f35edb; loadts=1773407066623; unread={%22ub%22:%2269ae6c26000000001a02e544%22%2C%22ue%22:%2269b40294000000001d019e3b%22%2C%22uc%22:27}"
+      },
+      "timeout": 60000
+    },
+    "exa": {
+      "baseUrl": "https://mcp.exa.ai/mcp"
+    },
+    "tikhub": {
+      "command": "python3.11",
+      "args": [
+        "/Users/tuituli/.openclaw/workspace/tikhub_mcp/server.py"
+      ],
+      "env": {
+        "TIKHUB_API_KEY": "0LIcGeEbhk25sWGyBafMmRXwazLUUrpSvBCFhHimTdyHqQiLHH3fax6OYA==",
+        "DASHSCOPE_API_KEY": "sk-86e0626a3e214f32b6fa1e015b8aad49",
+        "XIAOHONGSHU_COOKIE": "abRequestId=ff43aba7-fb2c-5e3d-b210-ccf8bdf224d6; xsecappid=xhs-pc-web; a1=19ca3505402nhx9khzm4m3pmgrb3ufh9hxtkmfvgo30000175978; webId=50e8475c2985e05924b441acb058315a; gid=yjS0q28KyYxqyjS0q2824Cih8JIxCjTxu6469klqU6kFDTq8q7ixj6888yW2jWY8DyJ2qf0f; webBuild=5.14.6; acw_tc=0ad6fbfc17732312495692440eaa2c638602bfee99df611728521a12773b46; web_session=0400698d1539261b2047ce14843b4bda88c65b; id_token=VjEAAFTd9/OY174zKswN8smK7BmIf9UqFy1mJQ2uCWKkkyGzvXYxPnnOxlw8fKOI6uRb3ScLmxvKUSpnZZFqMZyXDM+qZ/F5KJovmsrIED9kPUN8HZdqm/WPOGVVRFvLbJWVHO1j; loadts=1773231605533; websectiga=3fff3a6f9f07284b62c0f2ebf91a3b10193175c06e4f71492b60e056edcdebb2; sec_poison_id=20be443d-0aca-47fe-b209-305082174bc7; unread={%22ub%22:%2269a25c37000000001b014749%22%2C%22ue%22:%2269ad8397000000001a029f81%22%2C%22uc%22:17}"
+      },
+      "timeout": 180000
+    }
+  }
+}

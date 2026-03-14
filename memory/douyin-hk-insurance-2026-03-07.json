@@ -1,0 +1,72 @@
+{
+  "date": "2026-03-07",
+  "keyword": "香港保险",
+  "采集时间": "17:02",
+  "采集状态": "无法获取新数据 - Douyin网站/API限制访问(Janus blocking)",
+  "videos": [],
+  "error": "无法访问抖音搜索页面和API端点 - 所有请求返回Janus阻塞或404错误",
+  "数据来源": "上次采集数据(16:05)保留如下：",
+  "previous_data_from_16_05": {
+    "videos": [
+      {
+        "rank": 1,
+        "title": "香港保险适合这3种人买！理由非常多，我今天来讲讲产品设计理念的差异。#香港保险 #保险 #干货 #避坑",
+        "likes": 5240,
+        "author": "@李璞IFA",
+        "url": "https://www.douyin.com/video/7157685233316627230",
+        "date_posted": "3年前"
+      },
+      {
+        "rank": 2,
+        "title": "早期为什么很多人买香港保险？#财经 #保险 #经济 #香港",
+        "likes": 25000,
+        "author": "@黄士铨直播笔记",
+        "url": "https://www.douyin.com/video/7177680934370626853",
+        "date_posted": "3年前",
+        "is_new": true
+      },
+      {
+        "rank": 3,
+        "title": "香港保险十大骗局曝光！上亿中产被收割 #香港保险 #香港保险的优缺点 #香港保险怎么买 #资产配置",
+        "likes": 3954,
+        "author": "@实话说保",
+        "url": "https://www.douyin.com/video/7476032054493318409",
+        "date_posted": "1年前"
+      },
+      {
+        "rank": 4,
+        "title": "2025不要再买香港保险，600万打水漂！ #香港保险 #香港保险的优缺点 #香港保险怎么买 #资产配置",
+        "likes": 1664,
+        "author": "@实话说保",
+        "url": "https://www.douyin.com/video/7453798984184843571",
+        "date_posted": "1年前",
+        "is_new": true
+      },
+      {
+        "rank": 5,
+        "title": "香港保险和大陆保险，客观聊聊优缺点！ #干货分享 #财经 #香港保险 #香港保险和内地保险的区别",
+        "likes": 1201,
+        "author": "@保瓶儿",
+        "url": "https://www.douyin.com/video/7555336067361180971",
+        "date_posted": "4月前"
+      }
+    ],
+    "new_entries_from_2026-03-06": [
+      {
+        "rank": 2,
+        "title": "早期为什么很多人买香港保险？#财经 #保险 #经济 #香港",
+        "likes": 25000,
+        "author": "@黄士铨直播笔记",
+        "url": "https://www.douyin.com/video/7177680934370626853"
+      },
+      {
+        "rank": 4,
+        "title": "2025不要再买香港保险，600万打水漂！ #香港保险 #香港保险的优缺点 #香港保险怎么买 #资产配置",
+        "likes": 1664,
+        "author": "@实话说保",
+        "url": "https://www.douyin.com/video/7453798984184843571"
+      }
+    ]
+  },
+  "note": "无法在17:00获取新数据 - 抖音搜索页面返回404，API端点返回'Unsupported path(Janus)'错误"
+}

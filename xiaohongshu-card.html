@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap');
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Noto Sans SC', sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      min-height: 100vh;
+      padding: 40px;
+    }
+    .card {
+      background: rgba(255,255,255,0.95);
+      border-radius: 24px;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .header h1 {
+      font-size: 32px;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin-bottom: 8px;
+    }
+    .header .subtitle {
+      font-size: 16px;
+      color: #666;
+    }
+    .badge {
+      display: inline-block;
+      background: linear-gradient(135deg, #ff6b6b, #ee5a5a);
+      color: white;
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 500;
+    }
+    .table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    .table th {
+      background: #1a1a2e;
+      color: white;
+      padding: 14px 16px;
+      text-align: left;
+      font-weight: 500;
+      font-size: 14px;
+    }
+    .table th:first-child { border-radius: 12px 0 0 12px; }
+    .table th:last-child { border-radius: 0 12px 12px 0; }
+    .table td {
+      padding: 14px 16px;
+      border-bottom: 1px solid #eee;
+      font-size: 14px;
+    }
+    .table tr:last-child td { border-bottom: none; }
+    .rank {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 14px;
+    }
+    .rank-1 { background: linear-gradient(135deg, #ffd700, #ffb700); color: #1a1a2e; }
+    .rank-2 { background: linear-gradient(135deg, #c0c0c0, #a8a8a8); color: #1a1a2e; }
+    .rank-3 { background: linear-gradient(135deg, #cd7f32, #b87333); color: white; }
+    .rank-other { background: #f0f0f0; color: #666; }
+    .title {
+      font-weight: 500;
+      color: #1a1a2e;
+      max-width: 300px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .likes {
+      font-weight: 600;
+      color: #ff6b6b;
+    }
+    .new-badge {
+      background: #10b981;
+      color: white;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      margin-left: 8px;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid #eee;
+      color: #999;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <span class="badge">🔥 热门榜单</span>
+      <h1>小红书·香港保险</h1>
+      <p class="subtitle">2026年3月7日 18:00 数据</p>
+    </div>
+    <table class="table">
+      <thead>
+        <tr>
+          <th style="width:60px">排名</th>
+          <th>标题</th>
+          <th style="width:100px">点赞</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="rank rank-1">1</span></td>
+          <td class="title">第一批买香港保险的内地中产，都去打官司了</td>
+          <td class="likes">2391</td>
+        </tr>
+        <tr>
+          <td><span class="rank rank-2">2</span></td>
+          <td class="title">经历过保险拒赔的举手</td>
+          <td class="likes">9634</td>
+        </tr>
+        <tr>
+          <td><span class="rank rank-3">3</span></td>
+          <td class="title">3.53%全保证，是"后悔药"还是"安慰剂"？</td>
+          <td class="likes">31</td>
+        </tr>
+        <tr>
+          <td><span class="rank rank-other">4</span></td>
+          <td class="title">香港保险值不值得买？超全分析+风险揭秘</td>
+          <td class="likes">427</td>
+        </tr>
+        <tr>
+          <td><span class="rank rank-other">5</span></td>
+          <td class="title">2026第一批买港险的，已经后悔了!小心被割</td>
+          <td class="likes">1224</td>
+        </tr>
+        <tr>
+          <td><span class="rank rank-other">6</span></td>
+          <td class="title">香港保险如何设置投保人被保人和受益人？<span class="new-badge">新</span></td>
+          <td class="likes">76</td>
+        </tr>
+        <tr>
+          <td><span class="rank rank-other">7</span></td>
+          <td class="title">香港划定"大到不能倒"险企！友邦保诚入选</td>
+          <td class="likes">242</td>
+        </tr>
+        <tr>
+          <td><span class="rank rank-other">8</span></td>
+          <td class="title">港险分红回撤是怎么回事？监管限高影响大吗<span class="new-badge">新</span></td>
+          <td class="likes">221</td>
+        </tr>
+        <tr>
+          <td><span class="rank rank-other">9</span></td>
+          <td class="title">支F宝悄悄上线新存款，6%利息绝了！</td>
+          <td class="likes">987</td>
+        </tr>
+        <tr>
+          <td><span class="rank rank-other">10</span></td>
+          <td class="title">一口气读懂香港保险 8大陷阱 ！<span class="new-badge">新</span></td>
+          <td class="likes">7</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="footer">
+      数据来源：小红书搜索 · 仅供参考
+    </div>
+  </div>
+</body>
+</html>
